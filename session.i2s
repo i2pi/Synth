@@ -1,0 +1,32 @@
+SAMPLE_RATE:     44100.00
+BPM:  850.000
+a1: NM[dack] XY-256,1194 >Ia50 
+a2: NM[hr2] XY-435,726 [parts]+001.000 [pitch]+000.011 [even amp]+000.087 [even phase]+000.619 [odd amp]c39 [odd phase]+000.952 [volume]+000.778 [decay]+000.111 
+a3: NM[hr2] XY-361,703 [parts]+002.000 [pitch]+000.010 [even amp]c37 [even phase]+003.000 [odd amp]c30 [odd phase]c31 [volume]+000.698 [decay]+000.365 
+a9: NM[hr2] XY-263,689 [parts]+002.000 [pitch]+000.010 [even amp]c30 [even phase]c31 [odd amp]+000.300 [odd phase]c37 [volume]+000.651 [decay]+001.000 
+a14: NM[ws1] XY-285,854 [amount]+000.698 >Ia3 Ia34 
+a29: NM[vrb] XY-278,954 [stretch]+076.984 [offset]+076.000 [will]+000.629 [make]+000.010 [you]+000.010 [cry]+000.010 [bloody]+000.010 [tears]+000.010 >Ia14 Ia15 
+a33: NM[mog] XY-180,987 [freq]+000.242 [res]+000.863 >Ia29 Ia55 
+a34: NM[mog] XY-288,1004 [freq]+000.038 [res]+002.692 >Ia29 Ia40 
+a15: NM[udl] XY-350,893 [left]-000.306 [right]-000.500 >Ia2 Ia9 Ia33 Ia49 
+a40: NM[rng] XY-429,916 >Ia3 Ia9 
+a41: NM[mog] XY-398,961 [freq]c47 [res]c45 >Ia40 Ia14 Ia48 Ia2 
+a43: NM[iir] XY-403,1020 [suck]+000.202 [my]+000.448 [shiny]+000.460 [brass]+000.444 [balls]+000.444 >Ia41 Ia49 
+a48: NM[vrb] XY-254,1058 [stretch]+088.889 [offset]+086.000 [will]+000.771 [make]+001.343 [you]+001.171 [cry]+000.400 [bloody]+000.857 [tears]+000.629 >Ia34 Ia43 Ia55 
+a49: NM[ws1] XY-269,1109 [amount]c53 >Ia48 
+a50: NM[ws1] XY-394,1113 [amount]-000.238 >Ia43 
+a55: NM[hr2] XY-125,1024 [parts]+008.000 [pitch]+000.019 [even amp]c36 [even phase]+001.714 [odd amp]c39 [odd phase]+000.010 [volume]+000.341 [decay]+001.000 
+c30: NM[sin] XY-175,758 V+0.4342 [freq]+015.873 [amp]+000.476 [phase]+000.000 
+c31: NM[sin] XY-172,804 V+0.1292 [freq]+019.048 [amp]+000.683 [phase]+000.000 
+c35: NM[brn] XY-100,854 V-0.0630 [freq]+007.000 [amp]+000.563 [up]+000.100 [down]+000.100 
+c36: NM[sli] XY-143,871 V-0.1203 [amount]+000.563 >Ic35 
+c37: NM[add] XY-178,893 V-0.1203 >Ic36 
+c38: NM[num] XY-109,919 V+0.0000 [value]+000.381 >Ic37 
+c39: NM[mul] XY-96,804 V-0.0155 >Ic31 Ic37 
+c44: NM[sin] XY-570,843 V-0.2607 [freq]+009.524 [amp]+000.889 [phase]+000.000 
+c45: NM[stp] XY-580,908 V+0.0620 [freq]+019.000 [amp]+000.738 [up]+000.100 [down]+000.100 
+c46: NM[mul] XY-521,888 V-0.0162 >Ic44 Ic45 
+c47: NM[sli] XY-483,946 V-0.0129 [amount]+000.389 >Ic46 
+c53: NM[sin] XY-140,1114 V+0.5010 [freq]+009.127 [amp]+000.643 [phase]+000.000 
+EOF
+
